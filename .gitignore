@@ -1,2 +1,25 @@
 glove.6B.zip
 glove.6B.100d.txt
+# Exclude BERT model checkpoints and outputs
+results_bert/
+logs_bert/
+
+# Common ML/DL files to exclude
+*.pt
+*.bin
+*.h5
+*.hdf5
+*.keras
+*.model
+*.ckpt*
+*.pth
+*.safetensors
+*.rar
+# Dataset files
+*.csv
+*.txt
+glove*
+
+# Cache files
+__pycache__/
+.ipynb_checkpoints/
