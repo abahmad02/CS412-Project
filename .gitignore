@@ -23,3 +23,7 @@ glove*
 # Cache files
 __pycache__/
 .ipynb_checkpoints/
+saved_models/
+results_bert/
+results_bert_cv_fold/
+results_bert_cv_fold_temp/
